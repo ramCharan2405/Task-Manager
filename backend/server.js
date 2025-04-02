@@ -7,7 +7,7 @@ const connectDB = require("./config/db");
 
 const authRoutes=require("./routes/authRoutes")
 const userRoutes=require("./routes/userRoutes")
-const taskRoutes=require("./routes/userRoutes")
+const taskRoutes=require("./routes/taskRoutes")
 
 const app =express();
 
